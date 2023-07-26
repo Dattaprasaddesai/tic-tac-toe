@@ -1,0 +1,27 @@
+touch .gitignore   ...//excluding some  files (large file) from folder.. rest all are files from folder comes in staging area.
+
+git config --global user.name Dattaprasaddesai
+ git config --global user.email desaipundalik4@gmail.com
+
+git init           ...//initialize the repository.
+
+git add .          ...//excluding   files (large file) from gitignore.. rest all are files from folder comes in staging area
+
+git commit -m "initial commit "     ...//initial commit ready/done.
+
+git status  # just to see  //..check working tree clean or not.
+
+ssh-keygen -t rsa -b 4096 -C "desaipundalik4@gmail.com"
+
+tail <path to id_rsa.pub> ..//add this key to github account .
+
+git remote add origin.
+
+git push origin master
+ 
+
+
+
+
+
+
